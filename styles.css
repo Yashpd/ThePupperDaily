@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:10px;
+  padding: 10px;
+  display:block;
+}
+
+.newspaper-title{
+  font-family: "Arial" sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align:center;
+  border-bottom: 2px solid black;
+  font-size: 40px;
+}
+
+.story-head{
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.quarter{
+  width: 25%;
+  text-align: center;
+}
+
+.half{
+  width:50%;
+  text-align:center;
+}
+
+.story{
+  padding:0 10px;
+  border-right: 1px solid black;
+}
+
+.story-body{
+  font-size: 15px;
+  font-style: italic;
+  font-family: helvetica;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.three-quarter{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list{
+  list-style-type: none;
+}
+
+.section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.link{
+  padding-left: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Georgia",serif;
+  color: #8e0f0e;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.politics{
+  background-color: #7EB19F;
+}
+
+.science{
+  background-color: #0C8282;
+}
+
+.sports{
+  background-color: #EF9037;
+}
+
+.tech{
+  background-color: #EDDDBD;
+}
+
+.ent{
+  background-color: #FF8243;
+}
